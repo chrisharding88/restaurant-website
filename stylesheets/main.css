@@ -1,0 +1,45 @@
+.name,
+ul.menu li a {
+	display: inline-block;
+
+}
+
+
+.name{
+	float: left;
+	padding: 8px;
+}
+
+
+ul.menu li {
+	float: right;
+	padding: 8px;
+	margin-right: 20px;
+
+}
+
+
+
+@media all and (min-width: 480px){
+	.name {
+		display:inline-block;
+		float: left;
+		padding: 8px;
+		clear: left;
+
+	}
+
+	ul.menu li {
+		display:inline-block;
+		float: right;
+		padding: 8px;
+		
+	}
+
+	
+	.menu li: last child {
+		border-right: none;
+	}
+
+
+}
