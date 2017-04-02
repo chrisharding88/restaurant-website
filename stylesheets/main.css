@@ -18,6 +18,17 @@ ul.menu li {
 
 }
 
+/**************************************
+CONTACT PAGE
+***************************************/
+.info{
+	float: left;
+}
+
+.forum{
+	float: right;
+	width: 35%;
+}
 
 
 @media all and (min-width: 480px){
