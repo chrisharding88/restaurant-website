@@ -1,21 +1,43 @@
-.name,
-ul.menu li a {
-	display: inline-block;
 
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
+
 
 
 .name{
 	float: left;
-	padding: 8px;
+	padding: 10px 0;
 }
 
-
-ul.menu li {
+nav {
 	float: right;
-	padding: 8px;
-	margin-right: 20px;
+}
 
+nav ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+nav li{
+	display: inline-block;
+
+}
+
+nav a {
+	text-decoration: none;
+
+}
+
+/***********************************
+MENU
+***********************************/
+.sidebar{
+	float: right;
+	box-sizing: border-box;
+	width:100%;
 }
 
 /**************************************
@@ -27,7 +49,11 @@ CONTACT PAGE
 
 .forum{
 	float: right;
-	width: 35%;
+	width: 500px;
+}
+.info,
+.forum{
+	clear: both;
 }
 
 
