@@ -34,23 +34,22 @@ nav a {
 /***********************************
 MENU
 ***********************************/
-.sidebar{
-	float: right;
-	box-sizing: border-box;
-	width:100%;
-}
+
 
 /**************************************
 CONTACT PAGE
 ***************************************/
 .info{
 	float: left;
+	margin-left: 25px;
+	margin-bottom: 200px;
 }
 
 .forum{
 	float: right;
-	width: 500px;
+	margin-bottom: 200px;
 }
+
 .info,
 .forum{
 	clear: both;
