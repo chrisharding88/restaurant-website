@@ -32,9 +32,27 @@ nav a {
 }
 
 /***********************************
+ABOUT
+***********************************/
+.container{
+	width: 1200px;
+}
+.about{
+	float:right;
+	width:35%;
+	clear:right;
+	margin-right:85px;
+	margin-top: 125px;
+}
+
+/***********************************
 MENU
 ***********************************/
-
+.sidebar {
+	clear: right;
+	margin-right: 85px;
+	margin-top: 125px;	
+}
 
 /**************************************
 CONTACT PAGE
