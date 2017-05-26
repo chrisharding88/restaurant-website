@@ -1,9 +1,6 @@
-
-.container {
-	width: 80%;
-	margin: 0 auto;
+body{
+	line-height: 1.5;
 }
-
 
 
 .name{
@@ -31,18 +28,36 @@ nav a {
 
 }
 
+html {
+	margin-top: 20px;
+	background-color: green;
+}
+
+.container {
+	width: 1200px;
+	height: 900px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 45px;
+	background-color: white;
+}
+
+/***********************************
+HOME
+***********************************/
+
+
 /***********************************
 ABOUT
 ***********************************/
-.container{
-	width: 1200px;
-}
+
 .about{
 	float:right;
 	width:35%;
 	clear:right;
 	margin-right:85px;
 	margin-top: 125px;
+	border: 2px solid black;
 }
 
 /***********************************
@@ -50,8 +65,14 @@ MENU
 ***********************************/
 .sidebar {
 	clear: right;
-	margin-right: 85px;
-	margin-top: 125px;	
+	margin-right: 55px;
+	margin-top: 125px;
+	border: 2px solid black;	
+}
+
+h2{
+	font-weight: bold;
+	font-size: 20px;
 }
 
 /**************************************
@@ -69,7 +90,7 @@ CONTACT PAGE
 	width: 35%;
 	clear: left;
 	margin: 10px;
-	padding:10px;
+	padding:20px;
 
 }
 
@@ -77,7 +98,7 @@ CONTACT PAGE
 	float:right;
 	width:35%;
 	margin:10px;
-	padding: 10px;
+	padding:20px;
 
 
 }
