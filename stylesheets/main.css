@@ -5,16 +5,38 @@ body{
 
 .name{
 	float: left;
-	padding: 10px 0;
+	padding: 10px;
+	margin-left: 20px;
 }
+
+.menu li a{
+	padding: 20px;
+}
+
+header {
+	padding-top: 5px;
+	border-bottom: 2px solid;
+	line-height: 55px;
+	min-height: 60px;
+	background-color: #000
+}
+
+.name,
+.menu li a{
+	color: green;
+}
+
+ul.menu li a:hover{
+	color: red;
+}
+
 
 nav {
 	float: right;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
+	margin-right: 45px;
 
 }
 
@@ -66,8 +88,10 @@ MENU
 .sidebar {
 	clear: right;
 	margin-right: 55px;
+	margin-left: 25px;
 	margin-top: 125px;
-	border: 2px solid black;	
+	border: 2px solid black;
+	width:35%;	
 }
 
 h2{
